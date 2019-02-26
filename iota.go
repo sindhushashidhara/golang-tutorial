@@ -47,7 +47,7 @@ func main() {
 	item2AfterTax := (taxRate * item2 ) /100 + item1
 	totalItemsAfterTax := item1AfterTax + item2AfterTax
 
-	fmt.Println("Thanks for stopping by the %s Store. Please come again!", storeName)
+	fmt.Printf("Thanks for stopping by the %s Store. Please come again!\n", storeName)
 	fmt.Println("You owe us: $ ", totalItemsAfterTax)
 
 }
