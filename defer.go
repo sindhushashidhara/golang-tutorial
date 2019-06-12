@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-var wg sync.WaitGroup
+//var wg sync.WaitGroup
 
 func main() {
 	wg.Add(2)
